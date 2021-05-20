@@ -1,0 +1,65 @@
+.container {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: all 2s ease-in-out;
+    /* animation-name: float;
+    animation-duration: 1.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out; */
+}
+
+.circle2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    transition: all 2s ease-in-out;
+    /* animation-name: float;
+    animation-duration: 1.8s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out; */
+}
+
+.play {
+    padding: 10px 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    background-color: plum;
+}
+
+@keyframes float {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
