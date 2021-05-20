@@ -7,3 +7,6 @@ npm i -g http-server
 cd canvas-drawImg
 http-server
 ```
+
+# visit
+访问 localhost:8080
